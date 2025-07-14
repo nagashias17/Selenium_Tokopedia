@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Suites" class="navigator-link">
+              <span class="suite-name border-passed">Test-Suites</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Suites" class="navigator-link ">
+                    <span>C:\Users\ASUS ROG\IdeaProjects\Tokopedia_Selenium\Test_Selenium.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Suites" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Suites" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Suites" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Suites" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Suites" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Suites" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suites" class="hide-methods passed suite-Test_Suites"> (hide)</a> <!-- hide-methods passed suite-Test_Suites -->
+                      <a href="#" panel-name="suite-Test_Suites" class="show-methods passed suite-Test_Suites"> (show)</a> <!-- show-methods passed suite-Test_Suites -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suites">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps" class="method navigator-link" hash-for-method="LoginNegative_Invalid_Password(nagashias17@gmail.com, Naga1234)">LoginNegative_Invalid_Password(nagashias17@gmail.com, Naga1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(Canon EOS 3000D)">Search_Positive_Products(Canon EOS 3000D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(ccccccccccccccccccc)">Search_Positive_Products(ccccccccccccccccccc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(ddddddddddddddddddd)">Search_Positive_Products(ddddddddddddddddddd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(SONY APLHA)">Search_Positive_Products(SONY APLHA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(zzzzzzzzzzzzzzzzzzz)">Search_Positive_Products(zzzzzzzzzzzzzzzzzzz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(aaaaaaaaaaaaaaaaaaaa)">Search_Positive_Products(aaaaaaaaaaaaaaaaaaaa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(bbbbbbbbbbbbbbbbbbb)">Search_Positive_Products(bbbbbbbbbbbbbbbbbbb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps" class="method navigator-link" hash-for-method="Search_Positive_Products(canon EOS 750D)">Search_Positive_Products(canon EOS 750D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suites -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suites" class="panel Test_Suites">
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(ccccccccccccccccccc)">
+                  </a> <!-- Search_Positive_Products(ccccccccccccccccccc) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(ccccccccccccccccccc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(ddddddddddddddddddd)">
+                  </a> <!-- Search_Positive_Products(ddddddddddddddddddd) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(ddddddddddddddddddd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(zzzzzzzzzzzzzzzzzzz)">
+                  </a> <!-- Search_Positive_Products(zzzzzzzzzzzzzzzzzzz) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(zzzzzzzzzzzzzzzzzzz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(aaaaaaaaaaaaaaaaaaaa)">
+                  </a> <!-- Search_Positive_Products(aaaaaaaaaaaaaaaaaaaa) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(aaaaaaaaaaaaaaaaaaaa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(bbbbbbbbbbbbbbbbbbb)">
+                  </a> <!-- Search_Positive_Products(bbbbbbbbbbbbbbbbbbb) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(bbbbbbbbbbbbbbbbbbb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginNegative_Invalid_Password(nagashias17@gmail.com, Naga1234)">
+                  </a> <!-- LoginNegative_Invalid_Password(nagashias17@gmail.com, Naga1234) -->
+                  <span class="method-name">LoginNegative_Invalid_Password</span>
+                  <span class="parameters">(nagashias17@gmail.com,Naga1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(Canon EOS 3000D)">
+                  </a> <!-- Search_Positive_Products(Canon EOS 3000D) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(Canon EOS 3000D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(SONY APLHA)">
+                  </a> <!-- Search_Positive_Products(SONY APLHA) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(SONY APLHA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Positive_Products(canon EOS 750D)">
+                  </a> <!-- Search_Positive_Products(canon EOS 750D) -->
+                  <span class="method-name">Search_Positive_Products</span>
+                  <span class="parameters">(canon EOS 750D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+        </div> <!-- panel Test_Suites -->
+        <div panel-name="test-xml-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ASUS ROG\IdeaProjects\Tokopedia_Selenium\Test_Selenium.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test-Suites&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test-Results-Demo&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps&quot;/&gt;
+      &lt;class name=&quot;com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps&quot;/&gt;
+      &lt;class name=&quot;com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-Results-Demo --&gt;
+&lt;/suite&gt; &lt;!-- Test-Suites --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test-Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test-Results-Demo (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test-Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test-Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suites');
+function tableData_Test_Suites() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginNegative_Invalid_Password')
+data.setCell(0, 2, 'com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps')
+data.setCell(0, 3, 9545);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Search_Positive_Products')
+data.setCell(1, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps')
+data.setCell(1, 3, 3482);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Search_Positive_Products')
+data.setCell(2, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps')
+data.setCell(2, 3, 3458);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Search_Positive_Products')
+data.setCell(3, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps')
+data.setCell(3, 3, 3446);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Search_Positive_Products')
+data.setCell(4, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps')
+data.setCell(4, 3, 3443);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Search_Positive_Products')
+data.setCell(5, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps')
+data.setCell(5, 3, 3440);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Search_Positive_Products')
+data.setCell(6, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps')
+data.setCell(6, 3, 3422);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Search_Positive_Products')
+data.setCell(7, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps')
+data.setCell(7, 3, 3408);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Search_Positive_Products')
+data.setCell(8, 2, 'com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps')
+data.setCell(8, 3, 3379);
+window.suiteTableData['Test_Suites']= { tableData: data, tableDiv: 'times-div-Test_Suites'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Test_Suites">
+              </div> <!-- times-div-Test_Suites -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test-Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginNegative_Invalid_Password(nagashias17@gmail.com, Naga1234)</span>
+                <span class="method-start">7170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16718 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(zzzzzzzzzzzzzzzzzzz)</span>
+                <span class="method-start">23874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(aaaaaaaaaaaaaaaaaaaa)</span>
+                <span class="method-start">34144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(bbbbbbbbbbbbbbbbbbb)</span>
+                <span class="method-start">44807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(ccccccccccccccccccc)</span>
+                <span class="method-start">54712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(ddddddddddddddddddd)</span>
+                <span class="method-start">65041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68481 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(Canon EOS 3000D)</span>
+                <span class="method-start">75287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(canon EOS 750D)</span>
+                <span class="method-start">85564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search_Positive_Products(SONY APLHA)</span>
+                <span class="method-start">95879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99301 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

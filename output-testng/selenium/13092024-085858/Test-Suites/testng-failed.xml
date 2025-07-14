@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test-Results-Demo(failed)">
+    <classes>
+      <class name="com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps">
+        <methods>
+          <include name="Search_Positive_Products" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps -->
+    </classes>
+  </test> <!-- Test-Results-Demo(failed) -->
+</suite> <!-- Failed suite [Test-Suites] -->

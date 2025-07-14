@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-13T09:12:18 WIB" name="Test-Suites" finished-at="2024-09-13T09:13:58 WIB" duration-ms="99732">
+    <groups>
+    </groups>
+    <test started-at="2024-09-13T09:12:18 WIB" name="Test-Results-Demo" finished-at="2024-09-13T09:13:58 WIB" duration-ms="99732">
+      <class name="com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps@1372ed45]" started-at="2024-09-13T09:12:18 WIB" name="setUp" finished-at="2024-09-13T09:12:25 WIB" duration-ms="7169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginNegative_Invalid_Password(java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps@1372ed45]" started-at="2024-09-13T09:12:25 WIB" name="LoginNegative_Invalid_Password" data-provider="loginDataInvalidPassword" finished-at="2024-09-13T09:12:35 WIB" duration-ms="9545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nagashias17@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naga1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginNegative_Invalid_Password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps@1372ed45]" started-at="2024-09-13T09:12:35 WIB" name="tearDown" finished-at="2024-09-13T09:12:35 WIB" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.Tokopedia_Selenium.impl.LoginNegativeSteps -->
+      <class name="com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:27 WIB" name="setUp" finished-at="2024-09-13T09:13:33 WIB" duration-ms="6485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:33 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:13:37 WIB" duration-ms="3408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canon EOS 3000D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:37 WIB" name="tearDown" finished-at="2024-09-13T09:13:37 WIB" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:37 WIB" name="setUp" finished-at="2024-09-13T09:13:43 WIB" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:43 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:13:47 WIB" duration-ms="3443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[canon EOS 750D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:47 WIB" name="tearDown" finished-at="2024-09-13T09:13:47 WIB" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:47 WIB" name="setUp" finished-at="2024-09-13T09:13:54 WIB" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:54 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:13:57 WIB" duration-ms="3422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SONY APLHA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps@5d20e46]" started-at="2024-09-13T09:13:57 WIB" name="tearDown" finished-at="2024-09-13T09:13:58 WIB" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.Tokopedia_Selenium.impl.SearchProductPositiveSteps -->
+      <class name="com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:35 WIB" name="setUp" finished-at="2024-09-13T09:12:42 WIB" duration-ms="6698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:42 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:12:45 WIB" duration-ms="3482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zzzzzzzzzzzzzzzzzzz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:45 WIB" name="tearDown" finished-at="2024-09-13T09:12:46 WIB" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:46 WIB" name="setUp" finished-at="2024-09-13T09:12:52 WIB" duration-ms="6439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:52 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:12:55 WIB" duration-ms="3379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:55 WIB" name="tearDown" finished-at="2024-09-13T09:12:56 WIB" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:12:56 WIB" name="setUp" finished-at="2024-09-13T09:13:03 WIB" duration-ms="6930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:03 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:13:06 WIB" duration-ms="3458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbbbbbbbbbbbbbbbbbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:06 WIB" name="tearDown" finished-at="2024-09-13T09:13:06 WIB" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:06 WIB" name="setUp" finished-at="2024-09-13T09:13:13 WIB" duration-ms="6052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:13 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:13:16 WIB" duration-ms="3446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ccccccccccccccccccc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:16 WIB" name="tearDown" finished-at="2024-09-13T09:13:16 WIB" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:16 WIB" name="setUp" finished-at="2024-09-13T09:13:23 WIB" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Search_Positive_Products(java.lang.String)[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:23 WIB" name="Search_Positive_Products" data-provider="DataProduct" finished-at="2024-09-13T09:13:26 WIB" duration-ms="3440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ddddddddddddddddddd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Positive_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps@7364985f]" started-at="2024-09-13T09:13:26 WIB" name="tearDown" finished-at="2024-09-13T09:13:27 WIB" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.Tokopedia_Selenium.impl.SearchProductNegativeSteps -->
+    </test> <!-- Test-Results-Demo -->
+  </suite> <!-- Test-Suites -->
+</testng-results>
